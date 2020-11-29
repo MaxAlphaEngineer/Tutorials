@@ -1,5 +1,125 @@
 
+body {
 
-body{
+    background-color: #2b2b2b;
+    color: #afb1b3;
+    font-family: Times, serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.you{
+ margin: 0 auto;
+ display: block;
+ text-align: center;
+}
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: separate;
+    width: 100%;
+    color: #2b2b2b;
+    background-color: #afb1b3;
+}
+
+#t01 {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: cadetblue;
+    background-color: white;
+''
 
 }
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+
+}
+
+
+p {
+    color: red;
+
+    text-align: center;
+    font-size: xx-large;
+}
+
+.p1 p {
+    color: rgb(55, 126, 124);
+    border: 2px solid dodgerblue;
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+img {
+
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+
+}
+
+
+.button1 a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button1 a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.button1 a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button1 a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.button1 a:link, button1 a:visited {
+    background-color: blue;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button1 a:hover,button1 a:active {
+    background-color: red;
+}
+
+.pre {
+ width: 100px;
+ height: 100px;
+ float: left;
+}
+iframe {
+margin-left: 10%;
+    margin-right: 10%;
+}
+
